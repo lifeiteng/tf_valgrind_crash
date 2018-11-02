@@ -8,9 +8,9 @@ cc_binary(
     visibility = ["//visibility:public"],
     copts = ["-Wunused-command-line-argument -g"],
     deps = [
-        "@org_tensorflow//tensorflow/cc/saved_model:loader",
-        "@org_tensorflow//tensorflow/cc/saved_model:signature_constants",
-        "@org_tensorflow//tensorflow/cc/saved_model:tag_constants",
-        "@org_tensorflow//tensorflow/core:lib",
+        "//tensorflow/cc/saved_model:loader",
+        "//tensorflow/cc/saved_model:signature_constants",
+        "//tensorflow/cc/saved_model:tag_constants",
+        "//tensorflow/core:lib",
     ],
 )
