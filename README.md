@@ -1,6 +1,9 @@
 # tf_valgrind_crash
 A simple example for test valgrind tensorflow
 
+* `This is a bug of OS X` [stackoverflow](https://stackoverflow.com/questions/44990380/why-valgrind-segfaults-when-i-launch-a-new-thread).
+
+-----------
 * test under Tensorflow tag `v1.11.0` & `master`
 
 ## build
